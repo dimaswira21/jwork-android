@@ -1,4 +1,4 @@
-package com.dimas.jwork_android;
+package com.dimas.jwork_android.request;
 
 import java.util.HashMap;
 import java.util.Map;

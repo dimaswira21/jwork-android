@@ -1,4 +1,4 @@
-package com.dimas.jwork_android;
+package com.dimas.jwork_android.constructor;
 
 public class Location {
     private String province;

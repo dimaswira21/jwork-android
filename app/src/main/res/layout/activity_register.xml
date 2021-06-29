@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".activity.LoginActivity">
+
 
     <EditText
         android:id="@+id/et_name"
@@ -13,6 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:hint="Name"
+        android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.500"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:hint="Email"
+        android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.500"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:hint="Password"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.500"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,9 +50,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="REGISTER"
+        android:backgroundTint="#FFFF99"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nunito_regular"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/password" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

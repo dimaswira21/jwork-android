@@ -1,4 +1,4 @@
-package com.dimas.jwork_android;
+package com.dimas.jwork_android.constructor;
 
 public class Recruiter {
     private int id;

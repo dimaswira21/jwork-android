@@ -1,4 +1,4 @@
-package com.dimas.jwork_android;
+package com.dimas.jwork_android.adapter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,6 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
+
+import com.dimas.jwork_android.R;
+import com.dimas.jwork_android.constructor.Job;
+import com.dimas.jwork_android.constructor.Recruiter;
 
 public class MainListAdapter extends BaseExpandableListAdapter {
 
